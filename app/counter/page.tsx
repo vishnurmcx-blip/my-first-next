@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Link } from "react-dom";
 
 export default function CounterPage() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ export default function CounterPage() {
       >
         +1
       </button>
+      <Link>Clik here</Link>
     </main>
   );
 }
