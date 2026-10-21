@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Link } from "react-dom";
+import Link from "next/link";
 
 export default function CounterPage() {
   const [count, setCount] = useState(0);
