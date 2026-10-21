@@ -14,7 +14,7 @@ export default function CounterPage() {
       >
         +1
       </button>
-      <Link>Clik here</Link>
+      
     </main>
   );
 }

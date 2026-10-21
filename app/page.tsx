@@ -18,6 +18,7 @@ export default function Home() {
         <h1>Hello World of vercel</h1>
       </div>
       <Counter />
+     
     </main>
   );
 }
